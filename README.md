@@ -1,4 +1,4 @@
-# My AstroNvim Config
+# njGroters's AstroNvim Config
 
 **NOTE:** This is for AstroNvim v4+
 
