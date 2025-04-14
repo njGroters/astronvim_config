@@ -1,8 +1,12 @@
-# AstroNvim Template
+# My AstroNvim Config
 
 **NOTE:** This is for AstroNvim v4+
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+There are many like it, but this one is mine.
+If you haven't already, check out [AstroNvim](https://github.com/AstroNvim/AstroNvim)! It may also be helpful to skim their [Getting Started docs](https://docs.astronvim.com/#-installation)
+
+This repo was creating by following the [Managing User Configuration docs](https://docs.astronvim.com/configuration/manage_user_config) (specifically the `Followed Getting Started` section).
+
 
 ## 🛠️ Installation
 
@@ -14,21 +18,13 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
-
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
-#### Clone the repository
-
+### Clone this repo to ~/.config/nvim
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone https://github.com/njGroters/astronvim_config ~/.config/nvim
 ```
 
-#### Start Neovim
-
+### Initialize AstroNvim
 ```shell
-nvim
+nvim --headless -c 'quitall'
 ```
+
