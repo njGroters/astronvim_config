@@ -19,13 +19,16 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
+
 ### Clone this repo to ~/.config/nvim
+
 ```shell
 git clone https://github.com/njGroters/astronvim_config ~/.config/nvim
 ```
 
 ### Initialize AstroNvim
+
 ```shell
+# Not sure if these args are still needed, 'nvim' alone seems to work just fine
 nvim --headless -c 'quitall'
 ```
-
