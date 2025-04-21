@@ -4,7 +4,7 @@
 
 There are many like it, but this one is mine. Forked from [the config template](https://github.com/AstroNvim/template) a while ago.
 
-If you haven't already, check out [AstroNvim](https://github.com/AstroNvim/AstroNvim)! It may also be helpful to skim their [Getting Started docs](https://docs.astronvim.com/#-installation)
+If you haven't already, check out [AstroNvim](https://github.com/AstroNvim/AstroNvim)! It may also be helpful to skim their [Getting Started docs](https://docs.astronvim.com/#-installation). This config also has some specific settings for [Neovide](https://neovide.dev/)
 
 This repo was creating by following the [Managing User Configuration docs](https://docs.astronvim.com/configuration/manage_user_config) (specifically the `Followed Getting Started` section)
 
