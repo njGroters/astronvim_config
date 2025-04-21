@@ -4,6 +4,8 @@
 
 -- The cool kids say no to lua
 vim.cmd [[
+    set wrap
+    
     " J K nav for visunes
     nmap j gj
     nmap k gk
