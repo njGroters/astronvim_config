@@ -1,9 +1,8 @@
--- if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- This will run last in the setup process.
 -- This is just pure lua so anything that doesn't
 -- fit in the normal config locations above can go here
 
+-- The cool kids say no to lua
 vim.cmd [[
     " J K nav for visunes
     nmap j gj
@@ -22,4 +21,9 @@ vim.cmd [[
         silent exe "normal! `[v`]\"_c"
         silent exe "normal! p"
     endfunction
+
+    if exists("g:neovide")
+        " Neovide-only config
+        let g:neovide_cursor_vfx_mode = "railgun"
+    endif
 ]]
