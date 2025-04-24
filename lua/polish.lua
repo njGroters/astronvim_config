@@ -5,6 +5,9 @@
 -- The cool kids say no to lua
 vim.cmd [[
     set wrap
+
+    " Fix for 'Press ENTER' after writes
+    set cmdheight=1
     
     " J K nav for visunes
     nmap j gj
