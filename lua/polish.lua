@@ -23,6 +23,9 @@ vim.cmd [[
         silent exe "normal! p"
     endfunction
 
+    "Spellcheck, add words with zg
+    set spell
+
     if exists("g:neovide")
         " Neovide-only config
         let g:neovide_cursor_vfx_mode = "railgun"
