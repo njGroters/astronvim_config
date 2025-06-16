@@ -5,6 +5,9 @@
 -- The cool kids say no to lua
 vim.cmd [[
     set wrap
+    set tabstop=4
+    set shiftwidth=4
+    set expandtab
 
     " Fix for 'Press ENTER' after writes
     set cmdheight=1
