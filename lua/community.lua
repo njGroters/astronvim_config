@@ -9,4 +9,5 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
 }
