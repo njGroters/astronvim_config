@@ -12,10 +12,6 @@ vim.cmd [[
     " Fix for 'Press ENTER' after writes
     set cmdheight=1
     
-    " J K nav for visunes
-    nmap j gj
-    nmap k gk
-    
     " Remove search highlights
     nmap <F9> :nohl
     
