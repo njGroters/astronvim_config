@@ -5,8 +5,8 @@ return {
     ---@type snacks.Config
     opts = {
       explorer = {
-enabled = true      },
-      
+        enabled = true,
+      },
     },
   },
 }
