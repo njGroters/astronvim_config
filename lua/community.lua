@@ -5,9 +5,11 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.eslint" },
+  { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.colorscheme.dracula-nvim" },
+  { import = "astrocommunity.pack.html-css" },
 }
