@@ -10,11 +10,11 @@ return {
             desc = "󰪶 SuiteScript",
           },
           ["<Leader>su"] = {
-            function() vim.cmd "term pnpm ns:upload %:t" end,
+            function() vim.cmd 'TermExec direction=float cmd="pnpm ns:upload %:t"' end,
             desc = "Upload the current file to the NetSuite file cabinet",
           },
           ["<Leader>si"] = {
-            function() vim.cmd "term pnpm ns:import %:t" end,
+            function() vim.cmd 'TermExec direction=float cmd="pnpm ns:import %:t"' end,
             desc = "Import the current file from the NetSuite file cabinet",
           },
         },
