@@ -1,13 +1,21 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+---@diagnostic disable: missing-fields
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 -- Configuration documentation can be found with `:h astrolsp`
 
 return {
   "AstroNvim/astrolsp",
-  optional = true,
+  ---@type AstroLSPOpts
   opts = {
-    formatting = {
-      async = true,
+    config = {
+      vtsls = {
+        settings = {
+          typescript = {
+            format = {
+              enable = false,
+            },
+          },
+        },
+      },
     },
   },
 }
