@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.pack.eslint" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.programming-language-support.csv-vim" },
 }
