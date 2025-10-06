@@ -12,5 +12,6 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.programming-language-support.csv-vim" },
 }
