@@ -13,6 +13,9 @@ return {
             format = {
               enable = false,
             },
+            tsserver = {
+              maxTsServerMemory = 8192,
+            },
           },
         },
       },
