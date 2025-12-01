@@ -9,6 +9,10 @@ return {
           ["<Leader>s"] = {
             desc = "󰪶 SuiteScript",
           },
+          ["<Leader>sw"] = {
+            function() vim.cmd "noautocmd w" end,
+            desc = "Write without side effects",
+          },
           ["<Leader>su"] = {
             function() vim.cmd 'TermExec direction=float cmd="pnpm ns:upload %:t"' end,
             desc = "Upload the current file to the NetSuite file cabinet",
