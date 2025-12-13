@@ -4,9 +4,4 @@
 return {
   "AstroNvim/astrolsp",
   optional = true,
-  opts = {
-    formatting = {
-      async = true,
-    },
-  },
 }
