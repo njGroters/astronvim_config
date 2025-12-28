@@ -13,4 +13,5 @@ return {
   { import = "astrocommunity.pack.prettier" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.bash" },
 }
