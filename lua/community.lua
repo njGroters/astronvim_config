@@ -14,5 +14,6 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.programming-language-support.csv-vim" },
 }
