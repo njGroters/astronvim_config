@@ -15,6 +15,7 @@ return {
             },
             tsserver = {
               maxTsServerMemory = 8192,
+              nodePath = "node",
             },
           },
         },
