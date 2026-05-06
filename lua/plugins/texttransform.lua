@@ -10,8 +10,6 @@ return {
         --- Keymap to open the telescope popup. Set to `false` or `nil` to disable keymapping
         --- You can always customize your own keymapping manually.
         telescope_popup = {
-          --- Opens the PoPup in normal mode
-          ["n"] = "<Leader>~",
           --- Opens the popup in visual/visual block modes
           ["v"] = "<Leader>~",
         },
