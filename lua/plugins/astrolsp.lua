@@ -13,7 +13,20 @@ return {
             format = {
               enable = false,
             },
+            tsserver = {
+              maxTsServerMemory = 8192,
+              nodePath = "node",
+            },
           },
+        },
+      },
+    },
+    mappings = {
+      n = {
+        -- this mapping will only be set in buffers with an LSP attached
+        ["<Leader>lp"] = {
+          function() vim.cmd "LspRestart" end,
+          desc = "Restart LSP",
         },
       },
     },
