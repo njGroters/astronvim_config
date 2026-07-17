@@ -10,6 +10,9 @@ return {
       vtsls = {
         settings = {
           typescript = {
+            experimental = {
+              useTsgo = true,
+            },
             format = {
               enable = false,
             },
