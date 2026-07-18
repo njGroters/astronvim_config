@@ -6,24 +6,7 @@ return {
   "AstroNvim/astrolsp",
   ---@type AstroLSPOpts
   opts = {
-    config = {
-      vtsls = {
-        settings = {
-          typescript = {
-            experimental = {
-              useTsgo = true,
-            },
-            format = {
-              enable = false,
-            },
-            tsserver = {
-              maxTsServerMemory = 8192,
-              nodePath = "node",
-            },
-          },
-        },
-      },
-    },
+    servers = { "tsgo_lsp" }, -- always necessary to tell AstroNvim to enable the language server
     mappings = {
       n = {
         -- this mapping will only be set in buffers with an LSP attached
