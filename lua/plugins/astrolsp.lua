@@ -7,6 +7,17 @@ return {
   ---@type AstroLSPOpts
   opts = {
     servers = { "tsgo" },
+    config = {
+      tsgo = {
+        settings = {
+          typescript = {
+            format = {
+              enable = false,
+            },
+          },
+        },
+      },
+    },
     mappings = {
       n = {
         -- this mapping will only be set in buffers with an LSP attached
