@@ -6,16 +6,13 @@ return {
   "AstroNvim/astrolsp",
   ---@type AstroLSPOpts
   opts = {
+    servers = { "tsgo" },
     config = {
-      vtsls = {
+      tsgo = {
         settings = {
           typescript = {
             format = {
               enable = false,
-            },
-            tsserver = {
-              maxTsServerMemory = 8192,
-              nodePath = "node",
             },
           },
         },
